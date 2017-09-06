@@ -25,6 +25,11 @@
 		3A741BCA1F601B2E0047273C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A741BCD1F601B2E0047273C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A741BCF1F601B2E0047273C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A741BE51F602B3F0047273C /* RunLoop.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RunLoop.playground; sourceTree = "<group>"; };
+		3A741BE61F602B3F0047273C /* TimezonePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TimezonePlayground.playground; sourceTree = "<group>"; };
+		3A741BE71F602B3F0047273C /* EncryptPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EncryptPlayground.playground; sourceTree = "<group>"; };
+		3A741BE81F602B3F0047273C /* JSONPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSONPlayground.playground; sourceTree = "<group>"; };
+		3A741BE91F602B3F0047273C /* CryptPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CryptPlayground.playground; sourceTree = "<group>"; };
 		BA2D97976CF503E129429730 /* Pods-MyPlaygrounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaygrounds.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlaygrounds/Pods-MyPlaygrounds.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +48,7 @@
 		3A741BB71F601B2E0047273C = {
 			isa = PBXGroup;
 			children = (
+				3A741BEA1F602B3F0047273C /* Playgrounds */,
 				3A741BC21F601B2E0047273C /* MyPlaygrounds */,
 				3A741BC11F601B2E0047273C /* Products */,
 				F15DC1BCCACA45D52D89A11D /* Pods */,
@@ -69,6 +75,18 @@
 				3A741BCF1F601B2E0047273C /* Info.plist */,
 			);
 			path = MyPlaygrounds;
+			sourceTree = "<group>";
+		};
+		3A741BEA1F602B3F0047273C /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				3A741BE51F602B3F0047273C /* RunLoop.playground */,
+				3A741BE61F602B3F0047273C /* TimezonePlayground.playground */,
+				3A741BE71F602B3F0047273C /* EncryptPlayground.playground */,
+				3A741BE81F602B3F0047273C /* JSONPlayground.playground */,
+				3A741BE91F602B3F0047273C /* CryptPlayground.playground */,
+			);
+			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		C1877B0AAEBD60F3C19DEB75 /* Frameworks */ = {
