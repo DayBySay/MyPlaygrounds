@@ -5,7 +5,7 @@ import Arcane
 import CCommonCrypto
 
 extension String {
-    func sha256data()  -> Data? {
+    func sha256()  -> String? {
         guard let messageData = self.data(using: .utf8) else {
             return nil;
         }
@@ -17,13 +17,12 @@ extension String {
             }
         }
         
-        return digestData
+        return digestData.map { String(format: "%02hhx", $0) }.joined()
     }
 }
 
 let userID: String = "daybysay"
-let hashedData: Data = userID.sha256data()!
-let hashedID: String = hashedData.map { String(format: "%02hhx", $0) }.joined()
+let hashedID: String = userID.sha256()!
 print(hashedID)
 
 // echo -n "daybysay" | shasum -a 256
