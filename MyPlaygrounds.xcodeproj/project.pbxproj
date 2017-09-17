@@ -18,6 +18,7 @@
 /* Begin PBXFileReference section */
 		0E7954CA2AE0BEB9FC4F0257 /* Pods-MyPlaygrounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaygrounds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlaygrounds/Pods-MyPlaygrounds.debug.xcconfig"; sourceTree = "<group>"; };
 		27803765F7644038AEC27891 /* Pods_MyPlaygrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlaygrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A1716F01F6A187900D46ABC /* InstantiateFromClassObject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InstantiateFromClassObject.playground; sourceTree = "<group>"; };
 		3A741BC01F601B2E0047273C /* MyPlaygrounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlaygrounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A741BC31F601B2E0047273C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A741BC51F601B2E0047273C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				3A741BE71F602B3F0047273C /* EncryptPlayground.playground */,
 				3A741BE81F602B3F0047273C /* JSONPlayground.playground */,
 				3A741BE91F602B3F0047273C /* CryptPlayground.playground */,
+				3A1716F01F6A187900D46ABC /* InstantiateFromClassObject.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
