@@ -33,6 +33,7 @@
 		3A741BE71F602B3F0047273C /* EncryptPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = EncryptPlayground.playground; sourceTree = "<group>"; };
 		3A741BE81F602B3F0047273C /* JSONPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSONPlayground.playground; sourceTree = "<group>"; };
 		3A741BE91F602B3F0047273C /* CryptPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CryptPlayground.playground; sourceTree = "<group>"; };
+		3AEF07151FC8145A00AD4FFB /* Codable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Codable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BA2D97976CF503E129429730 /* Pods-MyPlaygrounds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaygrounds.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlaygrounds/Pods-MyPlaygrounds.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +84,7 @@
 		3A741BEA1F602B3F0047273C /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				3AEF07151FC8145A00AD4FFB /* Codable.playground */,
 				3A0394AF1F8C530900D2C314 /* Compare.playground */,
 				3A741BE51F602B3F0047273C /* RunLoop.playground */,
 				3A741BE61F602B3F0047273C /* TimezonePlayground.playground */,
