@@ -17,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		0E7954CA2AE0BEB9FC4F0257 /* Pods-MyPlaygrounds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPlaygrounds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyPlaygrounds/Pods-MyPlaygrounds.debug.xcconfig"; sourceTree = "<group>"; };
+		1998AC5620F5113C001A0B2E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		27803765F7644038AEC27891 /* Pods_MyPlaygrounds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPlaygrounds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0394AF1F8C530900D2C314 /* Compare.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Compare.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3A1716F01F6A187900D46ABC /* InstantiateFromClassObject.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = InstantiateFromClassObject.playground; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 		3A741BEA1F602B3F0047273C /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				1998AC5620F5113C001A0B2E /* MyPlayground.playground */,
 				3A840F93208AC7F100E94755 /* XOR.playground */,
 				3AF354F7204F9F660088010F /* InversedList.playground */,
 				3AEF07151FC8145A00AD4FFB /* Codable.playground */,
